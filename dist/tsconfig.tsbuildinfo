@@ -242,7 +242,7 @@
         "affectsGlobalScope": false
       },
       "../src/commands/mycommands/help.ts": {
-        "version": "12f90935e5c3464b6cb374329ffbdd964b85fe58bb5439fe6bf896263b24098c",
+        "version": "38ad52068bbfa73b89847b65439f8b556c398d584c54eea88f087719bcad057c",
         "signature": "baf273664d050ece1d6514da22f4d7ffb6a301f06db6a80683a2f2bde498d047",
         "affectsGlobalScope": false
       },
