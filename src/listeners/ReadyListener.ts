@@ -12,5 +12,12 @@ export default class ReadyListener extends Listener {
         console.log(`${this.client.user.tag} has started and should be online.`)
         console.log(`Thank you for using Bot-Template by DanTechBoy!`)
         console.log(`Nodejs version: ${process.version}`)
+        this.client.user.setPresence({
+            activity: {
+                name: `TreeBot 360° | Type .help for commands!`,
+                type: 'PLAYING'
+            },
+            status: 'online'
+        });
     }
 } 
