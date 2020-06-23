@@ -247,12 +247,12 @@
         "affectsGlobalScope": false
       },
       "../src/commands/mycommands/host.ts": {
-        "version": "55f6519239204e724f2a6062a624e39ae11f07856434f82e3a7161b787839343",
+        "version": "30debe47d24ea04bdc74f0167e46ad3f8decbffdb4d1e96931052f705ce3d78b",
         "signature": "c7ceef40f96666e38fa8ff9cd43cd5f52f3a2549f0dcd0f282ec67541ff509c8",
         "affectsGlobalScope": false
       },
       "../src/commands/mycommands/invite.ts": {
-        "version": "3d0260c39386d817e510b44140c1d37a81f70f03b57ace57313fde6a6c428f7d",
+        "version": "ac61c86f66493483b3b43c849080c5d38c18bed379e24d5dbc9d154351551a47",
         "signature": "2b3c77dfb449663fd8e4fcf02b7649daf91e8f23f1fed1cba84149375389882c",
         "affectsGlobalScope": false
       },
