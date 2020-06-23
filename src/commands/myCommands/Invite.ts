@@ -15,7 +15,7 @@ export default class InviteCommand extends Command {
     public async exec(message: Message): Promise<Message> {
         const embed = new MessageEmbed()
         .setAuthor(`${this.client.user.username} | Invite`)
-        .setDescription(`Hey **${message.author.username}**! You can invite me here:\n\n https://discord.com/oauth2/authorize?client_id=723414837975318540&permissions=8&scope=bot\n\nI hope you like the bot!`)
+        .setDescription(`Hey **${message.author.username}**! You can invite me [here](https://discord.com/oauth2/authorize?client_id=723414837975318540&permissions=8&scope=bot) \n\nI hope you like the bot!`)
         .setColor("RANDOM")
         return message.util.send(embed);
     }
