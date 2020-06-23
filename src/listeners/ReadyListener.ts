@@ -14,7 +14,7 @@ export default class ReadyListener extends Listener {
         console.log(`Nodejs version: ${process.version}`)
         this.client.user.setPresence({
             activity: {
-                name: `TreeBot 360°/1.0.0 | Type .help for commands!`,
+                name: `TreeBot 360°/Version 1.0.0 | Type .help for commands!`,
                 type: 'PLAYING'
             },
             status: 'online'
