@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const typeorm_1 = require("typeorm");
+const Config_1 = require("../Config");
+const Giveaways_1 = require("../other/Giveaways");
+const connectionManager = new typeorm_1.ConnectionManager();
+connectionManager.create({
+    name: Config_1.dbName,
+    type: "sqlite",
+    database: "./db.sqlite",
+    entities: [
+        Giveaways_1.Giveaways
+    ]
+});
+exports.default = connectionManager;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YWJhc2UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvc3RydWN0dXJlcy9EYXRhYmFzZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLHFDQUE0QztBQUM1QyxzQ0FBbUM7QUFFbkMsa0RBQStDO0FBRS9DLE1BQU0saUJBQWlCLEdBQXNCLElBQUksMkJBQWlCLEVBQUUsQ0FBQztBQUNyRSxpQkFBaUIsQ0FBQyxNQUFNLENBQUM7SUFDckIsSUFBSSxFQUFFLGVBQU07SUFDWixJQUFJLEVBQUUsUUFBUTtJQUNkLFFBQVEsRUFBRSxhQUFhO0lBQ3ZCLFFBQVEsRUFBRTtRQUNOLHFCQUFTO0tBQ1o7Q0FDSixDQUFDLENBQUM7QUFFSCxrQkFBZSxpQkFBaUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbm5lY3Rpb25NYW5hZ2VyIH0gZnJvbSBcInR5cGVvcm1cIjtcclxuaW1wb3J0IHsgZGJOYW1lIH0gZnJvbSBcIi4uL0NvbmZpZ1wiO1xyXG5cclxuaW1wb3J0IHsgR2l2ZWF3YXlzIH0gZnJvbSBcIi4uL290aGVyL0dpdmVhd2F5c1wiO1xyXG5cclxuY29uc3QgY29ubmVjdGlvbk1hbmFnZXI6IENvbm5lY3Rpb25NYW5hZ2VyID0gbmV3IENvbm5lY3Rpb25NYW5hZ2VyKCk7XHJcbmNvbm5lY3Rpb25NYW5hZ2VyLmNyZWF0ZSh7XHJcbiAgICBuYW1lOiBkYk5hbWUsXHJcbiAgICB0eXBlOiBcInNxbGl0ZVwiLFxyXG4gICAgZGF0YWJhc2U6IFwiLi9kYi5zcWxpdGVcIixcclxuICAgIGVudGl0aWVzOiBbXHJcbiAgICAgICAgR2l2ZWF3YXlzXHJcbiAgICBdXHJcbn0pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgY29ubmVjdGlvbk1hbmFnZXI7Il19

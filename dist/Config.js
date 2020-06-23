@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.dbName = exports.owners = exports.prefix = exports.token = void 0;
+// Put your token here
+exports.token = "token";
+// Replace ! with the prefix you would like to use.
+exports.prefix = ".";
+// Add your user id to the owners variable. It is an array, so you can have multiple owners.
+exports.owners = [];
+exports.dbName = "TreeBotDB";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ29uZmlnLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vc3JjL0NvbmZpZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxzQkFBc0I7QUFDWCxRQUFBLEtBQUssR0FBVyxPQUFPLENBQUM7QUFDbkMsbURBQW1EO0FBQ3hDLFFBQUEsTUFBTSxHQUFXLEdBQUcsQ0FBQztBQUNoQyw0RkFBNEY7QUFDakYsUUFBQSxNQUFNLEdBQWEsRUFBRSxDQUFDO0FBRXRCLFFBQUEsTUFBTSxHQUFXLFdBQVcsQ0FBQSIsInNvdXJjZXNDb250ZW50IjpbIi8vIFB1dCB5b3VyIHRva2VuIGhlcmVcclxuZXhwb3J0IGxldCB0b2tlbjogc3RyaW5nID0gXCJ0b2tlblwiO1xyXG4vLyBSZXBsYWNlICEgd2l0aCB0aGUgcHJlZml4IHlvdSB3b3VsZCBsaWtlIHRvIHVzZS5cclxuZXhwb3J0IGxldCBwcmVmaXg6IHN0cmluZyA9IFwiLlwiO1xyXG4vLyBBZGQgeW91ciB1c2VyIGlkIHRvIHRoZSBvd25lcnMgdmFyaWFibGUuIEl0IGlzIGFuIGFycmF5LCBzbyB5b3UgY2FuIGhhdmUgbXVsdGlwbGUgb3duZXJzLlxyXG5leHBvcnQgbGV0IG93bmVyczogc3RyaW5nW10gPSBbXTtcclxuXHJcbmV4cG9ydCBsZXQgZGJOYW1lOiBzdHJpbmcgPSBcIlRyZWVCb3REQlwiIl19

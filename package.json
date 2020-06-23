@@ -1,0 +1,33 @@
+{
+  "name": "treebot",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Welcome to Bot-Template 👋</h1>\r <p>\r   <img alt=\"Version\" src=\"https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000\" />\r   <a href=\"https://opensource.org/licenses/ISC\" target=\"_blank\">\r     <img alt=\"License: ISC\" src=\"https://img.shields.io/badge/License-ISC-yellow.svg\" />\r   </a>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "iMemez",
+  "license": "ISC",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "db": "^2.0.0",
+    "discord-akairo": "github:1Computer1/discord-akairo",
+    "discord.js": "github:discordjs/discord.js",
+    "ms": "^2.1.2",
+    "sqlite": "^4.0.11",
+    "sqlite3": "^4.2.0",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanTechBoy/Bot-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanTechBoy/Bot-Template/issues"
+  },
+  "homepage": "https://github.com/DanTechBoy/Bot-Template#readme"
+}
